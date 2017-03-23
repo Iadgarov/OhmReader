@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+
+
+
+            <item>
+
+                <shape
+                    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+                    <gradient
+                        android:angle="45"
+                        android:startColor="@color/Silver"
+                        android:centerColor="@color/WhiteSmoke"
+                        android:endColor="@color/Silver"
+                        />
+
+
+                </shape>
+            </item>
+
+
+        </layer-list>
+    </item>
+
+</selector>

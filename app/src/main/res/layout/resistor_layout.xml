@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+
+
+
+
+    <ImageView
+        android:id="@+id/band0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red0"/>
+
+
+    <ImageView
+        android:id="@+id/band1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red1"/>
+
+
+    <ImageView
+        android:id="@+id/band2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red2"
+        />
+
+    <ImageView
+        android:id="@+id/band3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red3"
+        />
+
+    <ImageView
+        android:id="@+id/band4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red4"
+        />
+
+    <ImageView
+        android:id="@+id/band5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/red5"
+        />
+
+
+
+
+    <ImageView
+        android:id="@+id/body_center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/center_bands"/>
+
+
+    <ImageView
+        android:id="@+id/body_left"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/right_full"/>
+
+    <ImageView
+        android:id="@+id/body_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/left_full"
+        />
+
+
+
+
+
+
+</FrameLayout>
