@@ -10,24 +10,32 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
 
-    tools:context="com.example.david.ohmreader.MainActivity">
+    tools:context="com.iadgarov.david.ohmreader.MainActivity">
 
-
-    <SeekBar
-        android:id="@+id/bandCountSlider"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:max="3"
-        android:layout_marginBottom="50dp"
-        android:theme="@style/Widget.AppCompat.SeekBar.Discrete" />
 
     <TextView
         android:id="@+id/bandCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/bandCountSlider"
-        android:textSize="20dp"/>
+
+        android:textSize="20dp"
+
+        android:layout_marginBottom="5dp"/>
+
+    <SeekBar
+        android:id="@+id/bandCountSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="3"
+        android:progress="1"
+        android:layout_marginBottom="45dp"
+        android:theme="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:thumb="@drawable/seekbar_thumb"
+        android:layout_below="@id/bandCount"
+        />
+
+
 
 
     <GridView
@@ -41,7 +49,7 @@
         android:paddingBottom="1dp"
         android:paddingTop="1dp"
         android:numColumns="9"
-        android:layout_below="@+id/bandCount">
+        android:layout_below="@+id/bandCountSlider">
 
     </GridView>
 

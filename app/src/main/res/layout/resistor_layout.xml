@@ -50,9 +50,6 @@
         android:src="@drawable/red5"
         />
 
-
-
-
     <ImageView
         android:id="@+id/body_center"
         android:layout_width="fill_parent"
@@ -70,8 +67,12 @@
         android:id="@+id/body_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/left_full"
-        />
+        android:src="@drawable/left_full" />
+
+
+
+
+
 
 
 
